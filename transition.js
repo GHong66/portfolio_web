@@ -6,3 +6,7 @@ function animateLink() {
       target.classList.remove("fadeIn");
     }, 1000);
   }
+
+  $(document).ready(function() {
+    $('.wrapper').addClass('show');
+});
