@@ -1,3 +1,10 @@
+
+
+$(document).ready(function() {
+  $('.wrapper').addClass('show');
+});
+
+
 function animateLink() {
     event.preventDefault();
     var target = document.getElementById(this.hash.slice(1));
@@ -7,6 +14,3 @@ function animateLink() {
     }, 1000);
   }
 
-  $(document).ready(function() {
-    $('.wrapper').addClass('show');
-});
