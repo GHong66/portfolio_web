@@ -1,12 +1,15 @@
-function animateLink() {
-    event.preventDefault();
-    var target = document.getElementById(this.hash.slice(1));
-    target.classList.add("fadeIn");
-    setTimeout(function() {
-      target.classList.remove("fadeIn");
-    }, 1000);
-  }
-
-  $(document).ready(function() {
+$(document).ready(function() {
     $('.wrapper').addClass('show');
-});
+  });
+  
+  
+  function animateLink() {
+      event.preventDefault();
+      var target = document.getElementById(this.hash.slice(1));
+      target.classList.add("fadeIn");
+      setTimeout(function() {
+        target.classList.remove("fadeIn");
+      }, 1000);
+    }
+  
+  
